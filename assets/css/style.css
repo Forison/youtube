@@ -1,0 +1,224 @@
+body {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  width: 100%;
+  height: 55px;
+  position: fixed;
+  top: 0px;
+  box-shadow: 1px 1px 1px 1px rgb(240, 240, 240);
+  background-color: white;
+  z-index: 1;
+}
+
+section,
+aside {
+  float: left;
+  height: 1000px;
+  width: 50%;
+  margin: 1%;
+  padding: 1px;
+  margin-top: 75px;
+}
+.main {
+  width: 62%;
+  background: white;
+ 
+}
+
+.suggestions {
+  background: white;
+  width: 33%;
+  padding-left: 10px;
+}
+a.hamburger {
+  position: absolute;
+  transform: translate(20px, 20px);
+}
+
+span.search {
+  position: absolute;
+  transform: translate(297px, 9px);
+  height: 30px;
+  width: 575px;
+}
+.search button {
+  height: 34.8px;
+  width: 62px;
+  margin-bottom: 4%;
+  color: #222;
+  padding: 1.5%;
+  border: 0;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.search button:hover {
+  color: white;
+  background-color: silver;
+}
+span.search input {
+  height: 29px;
+
+  font-size: 18px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+a.brand {
+  position: absolute;
+  transform: translate(70px, 16px);
+  font-size: 1.4em;
+  text-decoration: none;
+}
+
+.fa-youtube {
+  color: red;
+  background: white;
+}
+
+.fa-bars {
+  font-size: 1.1em;
+}
+span.name {
+  font-weight: bold;
+  letter-spacing: -2.2px;
+  color: #222;
+}
+
+span.others {
+  position: absolute;
+  transform: translate(980px, 16px);
+  font-size: 1.4em;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+}
+.fa-th,
+.fa-share,
+.fa-bell {
+  margin-left: 30px;
+}
+.fa-th:hover {
+  color: silver;
+}
+.fa-share:hover {
+  color: silver;
+}
+
+.fa-bell:hover {
+  color: silver;
+}
+.fa-video:hover {
+  color: silver;
+}
+
+#inside-letter {
+  position: absolute;
+  transform: translate(1226px, 8px);
+  color: white;
+  background: red;
+  padding: 10px;
+  font-size: 1.3em;
+
+  border-radius: 50%;
+}
+
+#video-section {
+  width: 828px;
+  height: 480px;
+}
+#frame {
+  width: 100%;
+  height: 100%;
+}
+
+#video-description {
+  width: 100%;
+  height: 90px;
+}
+#emotions {
+  margin-left: 470px;
+}
+
+.like,
+.dislike,
+.share,
+.save,
+.more,
+.reply,
+.when {
+  color: gray;
+}
+#title {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.pubPhoto {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.profile {
+  position: absolute;
+  transform: translate(5px, -5px);
+  margin-top: 20px;
+  padding: 5px;
+}
+.el {
+  margin-left: 90px;
+  color: whitesmoke;
+}
+.el:hover {
+  color: gray;
+}
+.subscribe {
+  float: right;
+  background-color: red;
+  color: white;
+  border: 0;
+  height: 50px;
+  width: 170px;
+  border-radius: 5px;
+}
+
+#publisherDetails {
+  text-align: center;
+}
+
+.com {
+  margin-top: 55px;
+}
+.com-dislikes {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.autoplay {
+  margin-left: 212px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.fa-toggle-on {
+  color: blue;
+  font-size: 22px;
+}
+.up-next {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.video-thumbnail {
+  width: 167px;
+  height: 92px;
+  padding: 3px;
+}
+.related-title {
+  text-align: center;
+}
